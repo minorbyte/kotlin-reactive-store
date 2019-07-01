@@ -1,0 +1,6 @@
+rootProject.name = 'react-test'
+
+include 'kstore'
+include 'random-beans-junit5'
+include 'kstore-test'
+

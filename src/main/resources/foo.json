@@ -1,0 +1,242 @@
+{
+  "name": "Alpha Centauri",
+  "currentTurn": 1,
+  "currentPlayerId": "PLAYER:Colonial Forces",
+  "currentPlayerTurnStage": "MOVEMENT",
+  "currentPlayerTurnShipMovements": [
+    {
+      "first": "cae8c8f3-c5ea-4b16-9280-e63c924bb6f0",
+      "second": 3
+    },
+    {
+      "first": "83757061-2742-4a8d-bce7-1c10ead5d322",
+      "second": 3
+    },
+    {
+      "first": "4b205c25-978e-4a43-9b0f-1ea5c47125e3",
+      "second": 6
+    },
+    {
+      "first": "2085d3f0-05c9-430f-ab95-3236d4be8eda",
+      "second": 6
+    },
+    {
+      "first": "3a534777-fa44-4a0a-8021-2f83fa1ce9a4",
+      "second": 4
+    },
+    {
+      "first": "aa1842ec-0748-45d1-8cee-b88d8d82637f",
+      "second": 1
+    },
+    {
+      "first": "17f8e8d8-7562-4930-a13c-3aafd955314b",
+      "second": 1
+    },
+    {
+      "first": "2367a8ab-b9bc-4760-8c86-9b67d1557aaf",
+      "second": 1
+    },
+    {
+      "first": "82f2a113-78c2-4c5c-a4ed-904d2abef0a1",
+      "second": 1
+    }
+  ],
+  "players": [
+    {
+      "id": "PLAYER:Colonial Forces",
+      "moveOrder": 0,
+      "ai": false,
+      "name": "Colonial Forces",
+      "resources": 1000,
+      "fuel": 50,
+      "colonies": [],
+      "ships": [
+        {
+          "id": "cae8c8f3-c5ea-4b16-9280-e63c924bb6f0",
+          "position": {
+            "x": 7,
+            "y": 9
+          },
+          "shipType": "CAPITAL",
+          "hp": 50
+        },
+        {
+          "id": "83757061-2742-4a8d-bce7-1c10ead5d322",
+          "position": {
+            "x": 5,
+            "y": 9
+          },
+          "shipType": "CAPITAL",
+          "hp": 200
+        },
+        {
+          "id": "4b205c25-978e-4a43-9b0f-1ea5c47125e3",
+          "position": {
+            "x": 6,
+            "y": 9
+          },
+          "shipType": "SCOUT",
+          "hp": 10
+        },
+        {
+          "id": "2085d3f0-05c9-430f-ab95-3236d4be8eda",
+          "position": {
+            "x": 9,
+            "y": 6
+          },
+          "shipType": "SCOUT",
+          "hp": 10
+        },
+        {
+          "id": "3a534777-fa44-4a0a-8021-2f83fa1ce9a4",
+          "position": {
+            "x": 8,
+            "y": 5
+          },
+          "shipType": "FRIGATE",
+          "hp": 100
+        },
+        {
+          "id": "aa1842ec-0748-45d1-8cee-b88d8d82637f",
+          "position": {
+            "x": 7,
+            "y": 9
+          },
+          "shipType": "FIGHTER",
+          "hp": 50
+        },
+        {
+          "id": "17f8e8d8-7562-4930-a13c-3aafd955314b",
+          "position": {
+            "x": 7,
+            "y": 9
+          },
+          "shipType": "FIGHTER",
+          "hp": 50
+        },
+        {
+          "id": "2367a8ab-b9bc-4760-8c86-9b67d1557aaf",
+          "position": {
+            "x": 7,
+            "y": 9
+          },
+          "shipType": "FIGHTER",
+          "hp": 50
+        },
+        {
+          "id": "82f2a113-78c2-4c5c-a4ed-904d2abef0a1",
+          "position": {
+            "x": 7,
+            "y": 9
+          },
+          "shipType": "FIGHTER",
+          "hp": 50
+        }
+      ],
+      "techs": [],
+      "researchedTech": null
+    },
+    {
+      "id": "PLAYER:Cylon",
+      "moveOrder": 1,
+      "ai": true,
+      "name": "Cylon",
+      "resources": 1000,
+      "fuel": 50,
+      "colonies": [],
+      "ships": [
+        {
+          "id": "b7939a32-411c-40b8-8e23-47c32f3201de",
+          "position": {
+            "x": 2,
+            "y": 3
+          },
+          "shipType": "CAPITAL",
+          "hp": 200
+        }
+      ],
+      "techs": [],
+      "researchedTech": null
+    }
+  ],
+  "starSystem": {
+    "name": "Alpha Centauri",
+    "size": {
+      "width": 15,
+      "height": 28,
+      "x": 0,
+      "y": 0
+    },
+    "star": {
+      "id": "Alpha Centauri",
+      "title": "Alpha Centauri",
+      "radius": 2,
+      "position": {
+        "x": 5,
+        "y": 5
+      }
+    },
+    "planets": [
+      {
+        "id": "Alpha Centauri I",
+        "title": "Alpha Centauri I",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "planetType": "STANDARD",
+        "resourceMultiplier": "NORMAL"
+      },
+      {
+        "id": "Alpha Centauri IA",
+        "title": "Alpha Centauri IA",
+        "position": {
+          "x": 1,
+          "y": 2
+        },
+        "planetType": "MOON",
+        "resourceMultiplier": "NORMAL"
+      },
+      {
+        "id": "Alpha Centauri II",
+        "title": "Alpha Centauri II",
+        "position": {
+          "x": 9,
+          "y": 9
+        },
+        "planetType": "SMALL",
+        "resourceMultiplier": "NORMAL"
+      },
+      {
+        "id": "Alpha Centauri IIA",
+        "title": "Alpha Centauri IIA",
+        "position": {
+          "x": 10,
+          "y": 9
+        },
+        "planetType": "MOON",
+        "resourceMultiplier": "NORMAL"
+      },
+      {
+        "id": "Alpha Centauri III",
+        "title": "Alpha Centauri III",
+        "position": {
+          "x": 2,
+          "y": 9
+        },
+        "planetType": "GAS_GIANT",
+        "resourceMultiplier": "NORMAL"
+      },
+      {
+        "id": "Alpha Centauri IV",
+        "title": "Alpha Centauri IV",
+        "position": {
+          "x": 9,
+          "y": 2
+        },
+        "planetType": "GAS_GIANT_RINGED",
+        "resourceMultiplier": "NORMAL"
+      }
+    ]
+  }
+}
